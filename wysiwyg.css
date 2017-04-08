@@ -1,0 +1,35 @@
+body {
+  background-image: url(https://d3thflcq1yqzn0.cloudfront.net/012367514_prevstill.jpeg);
+}
+
+img {
+  display: block;
+  margin: 5px auto;
+}
+
+.thumbnail {
+  min-height: 525px;
+  margin: 25px 50px;
+  box-shadow: 0 0 50px rgb(254,233,186);
+}
+
+/*5. For every even numbered element, have a light yellow background.*/
+.thumbnail:nth-child(2n+0) {
+  background: lightyellow;
+}
+
+/*6. For every odd numbered element, have a light blue background.*/
+.thumbnail:nth-of-type(2n+1) {
+  background: lightblue;
+}
+
+/*8. When you click on one of the person elements, a dotted border should appear around it.*/
+.dotted-border {
+  border: 2px dotted blue;
+}
+
+input:focus {
+  margin: 10px;
+  background: blue;
+  color: white;
+}
